@@ -9,7 +9,6 @@ class JobController extends Controller
     public function index()
     {
         $jobs = ListJobs::all();
-
         return view('jobs', compact('jobs'));
     }
 }
