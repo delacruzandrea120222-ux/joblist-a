@@ -1,52 +1,38 @@
-# JobList - Laravel Web Application
+About Laravel
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-![Laravel](https://laravel.com/img/logomark.min.svg)
+Simple, fast routing engine.
+Powerful dependency injection container.
+Multiple back-ends for session and cache storage.
+Expressive, intuitive database ORM.
+Database agnostic schema migrations.
+Robust background job processing.
+Real-time event broadcasting.
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## About the Project
+Learning Laravel
+Laravel has the most extensive and thorough documentation and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-JobList is a simple web application built using the Laravel framework. It demonstrates basic CRUD structure and database-driven job listing features using Laravel MVC architecture.
+In addition, Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-This project is designed for educational purposes to understand how modern PHP frameworks work in real-world web applications.
+You can also watch bite-sized lessons with real-world projects on Laravel Learn, where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
 
----
+Agentic Development
+Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install Laravel Boost to supercharge your AI workflow:
 
-## Features
+composer require laravel/boost --dev
 
-- Simple and clean routing system
-- Database-driven job listings
-- MVC architecture (Model-View-Controller)
-- MySQL database integration
-- Dynamic data rendering using Blade templates
-- Factory-generated sample data
+php artisan boost:install
+Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
----
+Contributing
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the Laravel documentation.
 
-## Technologies Used
+Code of Conduct
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the Code of Conduct.
 
-- Laravel Framework
-- PHP
-- MySQL
-- Blade Template Engine
-- HTML / CSS
+Security Vulnerabilities
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
----
-
-## Learning Laravel
-
-This project follows Laravel’s structured approach which includes:
-
-- Expressive routing system
-- Powerful ORM (Eloquent)
-- Database migrations and factories
-- Template engine (Blade)
-- MVC architecture
-
-Laravel makes web development faster, cleaner, and more efficient.
-
----
-
-## Installation Guide
-
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/joblist.git
+License
+The Laravel framework is open-sourced software licensed under the MIT license.
