@@ -19,6 +19,46 @@ class ListJobsFactory extends Factory
             'DevOps Engineer',
             'IT Support Specialist',
             'Systems Analyst',
+            'Cybersecurity Analyst',
+            'Cloud Engineer',
+            'Database Administrator',
+            'Network Engineer',
+            'QA Tester',
+            'Game Developer',
+            'AI Engineer',
+            'Machine Learning Engineer',
+            'Data Analyst',
+            'Data Scientist',
+            'Technical Support Engineer',
+            'IT Project Manager',
+            'Computer Programmer',
+            'Java Developer',
+            'PHP Developer',
+            'Laravel Developer',
+            'Python Developer',
+            'JavaScript Developer',
+            'React Developer',
+            'Vue Developer',
+            'Android Developer',
+            'iOS Developer',
+            'Software Tester',
+            'Business Analyst',
+            'Graphic Designer',
+            'SEO Specialist',
+            'Digital Marketing Specialist',
+            'Content Writer',
+            'Blockchain Developer',
+            'Embedded Systems Engineer',
+            'Automation Engineer',
+            'ERP Consultant',
+            'Solutions Architect',
+            'Product Manager',
+            'Tech Lead',
+            'Security Engineer',
+            'Help Desk Technician',
+            'Computer Technician',
+            'IT Consultant',
+            'Systems Engineer',
         ];
 
         $companies = [
@@ -32,6 +72,16 @@ class ListJobsFactory extends Factory
             'Infosys Philippines',
             'Capgemini Engineering',
             'Local IT Solutions Inc.',
+            'TechNova Solutions',
+            'Skyline Digital Corp',
+            'FutureSoft Technologies',
+            'CodeCraft Systems',
+            'CyberLink Solutions',
+            'Nexus IT Services',
+            'Bright Future Technologies',
+            'PrimeTech Innovations',
+            'SmartWare Solutions',
+            'Global Digital Systems',
         ];
 
         $locations = [
@@ -42,6 +92,9 @@ class ListJobsFactory extends Factory
             'Cebu City, Philippines',
             'Davao City, Philippines',
             'Pasig City, Philippines',
+            'Baguio City, Philippines',
+            'Iloilo City, Philippines',
+            'Batangas City, Philippines',
         ];
 
         return [
@@ -50,13 +103,13 @@ class ListJobsFactory extends Factory
             'description' =>
                 'We are looking for a skilled ' .
                 fake()->randomElement($titles) .
-                ' to join our IT team. The candidate will be responsible for system development, maintenance, and improving application performance in a fast-paced tech environment.',
+                ' to join our IT team. The candidate will be responsible for system development, troubleshooting, testing, maintenance, and improving application performance in a fast-paced tech environment.',
 
             'company' => fake()->randomElement($companies),
 
             'location' => fake()->randomElement($locations),
 
-            'salary' => fake()->randomFloat(2, 50000, 150000),
+            'salary' => fake()->randomFloat(2, 50000, 250000),
         ];
     }
 }
